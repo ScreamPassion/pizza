@@ -2191,6 +2191,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -79636,6 +79638,8 @@ var render = function() {
             _vm._v(" "),
             _c("td", [_vm._v(_vm._s(order.email))]),
             _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(order.address))]),
+            _vm._v(" "),
             _c("td", [
               _vm._v(
                 _vm._s(_vm._f("moment")(order.updated_at, "MM.DD.YYYY HH:MM"))
@@ -79664,6 +79668,8 @@ var staticRenderFns = [
         _c("th", { attrs: { scope: "col" } }, [_vm._v("Order price")]),
         _vm._v(" "),
         _c("th", { attrs: { scope: "col" } }, [_vm._v("Email")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("Address")]),
         _vm._v(" "),
         _c("th", { attrs: { scope: "col" } }, [_vm._v("Ordered at")])
       ])
